@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" href="/assets/css/public.css">
+		<link rel="stylesheet" href="/plugins/validform/Validform_v5.3.2.css">
+		<link rel="stylesheet" href="login.css"/>
+		<title>登录</title>
+	</head>
+	<body>
+		<div class="header-welcome">
+			<div class="welcome">
+				<img src="/images/logo.svg" alt="">
+				<span>欢迎登陆小米有品</span>
+			</div>
+		</div>
+		<div class="login-content-wrapper">
+			<div class="login-content active">
+				<h6>小米账号登录</h6>
+				<form class="login" action="">
+					<div class="form-item-group">
+						<input class="name" type="text" datatype="s3-20" placeholder="邮箱/手机/小米ID" nullmsg="请输入用户名" errormsg="用户名3-20长度！" />
+						<span class="icon-clear"></span>
+					</div>
+					<div class="form-item-group">
+						<input class="pwd" type="password" datatype="s3-20" placeholder="请输入密码" nullmsg="请输入密码" errormsg="密码3-20长度！">
+						<span class="icon-eyes"></span>
+					</div>
+				</form>
+				<button disabled="disabled" class="btn-login disable" type="button">登录</button>
+				<span class="login-mode">
+					<a class="phone-login vertical-line" >手机号登录</a>
+					<a class="vertical-line user-register">立即注册</a>
+					<a href="">忘记密码?</a>
+				</span>
+				<div class="other-login-mode">
+					<div class="other-login-mode-header"><span>其他登录方式</span></div>
+					<div class="other-login-icon">
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="login-content-phone">
+				<h6>小米账号登录</h6>
+				<form class="login" action="">
+					<div class="form-item-group">
+						<input class="name" type="text" datatype="s3-20" placeholder="邮箱/手机/小米ID" nullmsg="请输入用户名" errormsg="用户名4-20长度！" />
+						<span class="icon-clear"></span>
+					</div>
+				</form>
+				<button disabled="disabled" class="btn-next" type="button">下一步</button>
+				<span class="login-mode">
+					<a class="user-login vertical-line">用户名密码登录</a>
+					<a class="user-register">立即注册</a>
+				</span>
+				<div class="other-login-mode">
+					<div class="other-login-mode-header"><span>其他登录方式</span></div>
+					<div class="other-login-icon">
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="register">
+			<div class="register-header">
+				<img src="/images/register-return.png" >
+			</div>
+			<div class="register-content">
+				<h6>注册小米账号</h6>
+				<span>系统会根据您选择的国家/地区的法律法规存储您的个人信息</span>
+				<form action="" class="register-form">
+					<div class="form-item-group">
+						<input class="register-name" type="text" datatype="s3-20" placeholder="请输入用户名" nullmsg="请输入用户名" errormsg="用户名3-20长度！" />
+						<span class="icon-clear"></span>
+					</div>
+					<div class="form-item-group">
+						<input class="register-phone" type="text" datatype="s3-20" placeholder="请输入手机号" nullmsg="请输入用户名" errormsg="用户名3-20长度！" />
+						<span class="icon-clear"></span>
+					</div>
+					<div class="form-item-group">
+						<input class="register-pwd" type="password" datatype="s3-20" placeholder="请输入密码" nullmsg="请输入密码" errormsg="密码3-20长度！">
+						<span class="icon-eyes"></span>
+					</div>
+				</form>
+				<button class="btn-register" type="button">注册</button>
+				<p>
+					<input class="checkbox" type="checkbox" />
+					<span>已阅读并同意小米帐号 <a href="">用户协议</a> 和 <a href="">隐私政策</a></span>
+				</p>
+			</div>
+		</div>
+		
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="/plugins/validform/Validform_v5.3.2.js"></script>
+		<script src="login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" href="/assets/css/public.css">
+		<link rel="stylesheet" href="order_confirm.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="header">
+					<img src="/images/cart/icon_arrow_left_white2.png" alt="">
+					<h3>确认订单</h3>
+				</div>
+				<div class="choice-address">
+					<div>请添加收货地址</div>
+					<img src="/images/product/coupon_list_arrow.png" alt="">
+				</div>
+				<div class="order-content">
+					<div class="order-item-header">
+						<img src="/images/order_confirm/logo_ypjingxuan.png" alt="">
+						<h6>有品精选</h6>
+					</div>
+					<div class="order-item-wrapper"></div>
+					<ul class="order-info">
+						<li>
+							<span>发票类型</span>
+							<span>不开发票</span>
+						</li>
+						<li>
+							<span>售后免邮</span>
+							<span>商家赠送</span>
+						</li>
+						<li>
+							<span>配送方式</span>
+							<span>快递配送</span>
+						</li>
+						<li>
+							<span>买家留言</span>
+						</li>
+					</ul>
+				</div>
+				<ul class="order-info order-discount">
+					<li>
+						<span>商品总价</span>
+						<span class="order-allprice">商品价格</span>
+					</li>
+					<li>
+						<span>运费</span>
+						<span>+&yen;0.00</span>
+					</li>
+					<li>
+						<span>活动优惠</span>
+						<span style="color: #BF1111;">-&yen;0.00</span>
+					</li>
+					<li>
+						<span>优惠券</span>
+						<span style="color: #BF1111;">-&yen;0.00</span>
+					</li>
+				</ul>
+				<div class="shop-popup-wrapper"></div>
+				<div class="shop-popup">
+					<img src="/images/product/close_circle_grey_new.png" alt="">
+					<div class="choice-address-wrapper">
+						<div class="choice-address-header"><h6>选择地址</h6></div>
+						<div class="choice-address-content"></div>
+					</div>
+					<button class="btn-yes">+ 添加地址</button>
+				</div>
+			</div>
+			<div class="order-total">
+				<h6>合计：<span>￥<span class="order-price">0</span>.00</span>&nbsp;免运费</h6>
+				<a>提交订单</a>
+			</div>
+		</div>
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jquery.query.js"></script>
+		<script src="order_confirm.js"></script>
+	</body>
+</html>

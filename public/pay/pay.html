@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" href="/assets/css/public.css" />
+		<link rel="stylesheet" href="pay.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="header">
+					<img src="/images/pay/icon_arrow_left_black.png" >
+					<span>有品收银台</span>
+				</div>
+				<div class="pay-price-wrapper">
+					<span>￥<span class="pay-price">0</span>.00</span>
+					<p>支付剩余时间：<span><span class="pay-hour">0</span> : <span class="pay-minute">0</span> : <span class="pay-second">0</span></span></p>
+				</div>
+				<ul class="pay-model">
+					<li class="border-1px">
+						<div>
+							<img src="/images/pay/pay_alipay.png" >
+							<span>支付宝</span>
+							<i>推荐</i>
+						</div>
+						<span class="checkbox active"></span>
+					</li>
+					<li>
+						<div>
+							<img src="/images/pay/pay_mipay.png" >
+							<span>小米钱包</span>
+						</div>
+						<span class="checkbox"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="confirm-pay">
+				<a>
+					<span>确认支付￥<span class="pay-price"></span>.00</span>
+				</a>
+			</div>
+		</div>
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jquery.query.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="pay.js"></script>
+	</body>
+</html>

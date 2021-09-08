@@ -1,0 +1,233 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+}
+.header {
+	height: 11.7333333vw;
+	background-color: #fff;
+	width: 100%;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header>img.return-prev {
+	width: 10.4vw;
+	height: 12.8vw;
+}
+.header>img.search {
+	width: 4.26666667vw;
+	height: 4.26666667vw;
+	padding: 2.66666667vw;
+}
+.header>span {
+	font-size: 4.266666667vw;
+}
+/* 全部分类 */
+ul.order-category {
+	background-color: #fff;
+	display: flex;
+	/* justify-content: space; */
+}
+ul.order-category>li {
+	flex: 1;
+	height: 10.66666667vw;     
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul.order-category>li>span {
+	font-size: 3.46666666667vw;
+	padding: 0.8vw 2.666666vw;
+	border-radius: 3vw;
+	color: #333;
+}
+ul.order-category>li.active>span {
+	color: #fff;
+	background-image: linear-gradient(to right, rgb(240, 206, 123), rgb(221, 177, 81));
+}
+/* 订单部分 */
+.order-content-wrapper {
+	padding: 2.6666666667vw;
+	flex-grow: 1;
+	overflow: auto;
+}
+.order-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.order {
+	width: 100%;
+	background-color: #fff;
+	padding: 0 2.266666667vw;
+	border-radius: 2.666666667vw;
+	margin-bottom: 2.666666667vw;
+}
+.order-content-header {
+	height: 10vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.order-content-header-left {
+	display: flex;
+}
+.order-content-header-left>img {
+	width: 5.7333333333vw;
+	height: 5.7333333333vw;
+	margin-right: 1.6vw;
+}
+.order-content-header-left>h6 {
+	color: #333;
+	font-size: 3.733333333vw;
+}
+.order-content-header>span {
+	font-size: 3.2vw;
+	color: #999;
+}
+.order-content {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2.666666667vw 0;
+}
+.order-content>div {
+	display: flex;
+	width: 100%;
+}
+.order-content>div>img {
+	width: 20.5333333333vw;
+	height: 20.5333333333vw;
+}
+.order-detail {
+	flex-grow: 1;
+	margin-left: 2.266666667vw;
+}
+.order-detail>span {
+	font-size: 3.46666667vw;
+	color: #333;
+}
+.order-detail>p {
+	color: #999;
+	font-size: 2.66666667vw;
+}
+.order-price {
+	color: #999;
+	font-size: 3.2vw;
+	text-align: right;
+	margin-left: 1.33333333vw;
+}
+.order-price>span {
+	display: block;
+}
+.order>p {
+	font-size: 2.666666667vw;
+	text-align: right;
+	margin: 2.666666667vw 0;
+}
+.order-operation {
+	display: flex;
+	justify-content: space-between;
+	height: 10.666666667vw;
+	align-items: center;
+}
+.order-operation>span {
+	color: #999;
+	font-size: 3.2vw;
+}
+.order-operation>button {
+	font-size: 3.2vw;
+	width: 17.33333333vw;
+	height: 6.4vw;
+	color: #bf1111;
+	outline: none;
+	border: 1px solid #bf1111;
+	border-radius: 3.2vw;
+	background-color: #fff;
+}
+/* 为你推荐 */
+.guess-you-like {}
+.guessyoulike-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2.6666666vw 0;
+	height: 11.2vw;
+	width: 100%;
+}
+.guessyoulike-header>h6 {
+	font-size: 3.7333333vw;
+	color: #333;
+}
+.guessyoulike-header>img {
+	width: 4.8vw;
+	height: 4.8vw;
+}
+.guessyoulike-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 0;
+}
+.guessyoulike-item {
+	border-radius: 3.2vw;
+	overflow: hidden;
+	background-color: #fff;
+	margin-bottom: 2.666666666vw;
+}
+.guessyoulike-item>img {
+	width: 45.73333333vw;
+}
+.item-text {
+	display: block;
+	padding: 2.8vw 1.6vw;
+}
+.item-title {
+	color: black;
+	font-size: 3.73333vw;
+	font-weight: 500;
+	width: 100%;
+	display: flex;
+}
+.item-text>p {
+	font-size: 3.2vw;
+	color: rgb(153,153,153);
+	margin: 1.6vw 0;
+	width: 100%;
+}
+.item-price {
+	font-size: 3.73333vw;
+	color: red;
+}
+/* 没有订单 */
+.no-order {
+	display: flex;
+	width: 100%;
+	padding: 9.0666666666vw 0;
+	/* justify-content: center; */
+	flex-direction: column;
+	align-items: center;
+}
+.no-order>img {
+	width: 20.533333333vw;
+	height: 20.533333333vw;
+}
+.no-order>p {
+	color: #666;
+	font-size: 2.66666667vw;
+	margin: 2.93333333333vw;
+}
+p.count-time {
+	color: red;
+	font-size: 2.6666667vw;
+	display: none;
+}
+p.count-time.nopay {
+	display: block;
+}
+span.remove-order.hidden {
+	display: none;
+}

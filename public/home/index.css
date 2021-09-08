@@ -1,0 +1,313 @@
+body {
+	background-color: #f4f4f4;
+}
+.container {
+	display: flex;
+	flex: wrap;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+.content {
+	flex-grow: 1;
+	overflow: auto;
+}
+.home-header {
+	background-color: rgb(132, 93, 50);
+	height: 14.93333333vw;
+	padding: 0 3.2vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.home-header>img {
+	width: 9.6vw;
+	height: 7.46666667vw;
+}
+.home-header>a {
+	display: flex;
+	align-items: center;
+	height: 8.5333333vw;
+	width: 81.06666667vw;
+	background-color: #fff;
+	border-radius: 4.26666667vw;
+	padding: 0 2.66666667vw;
+	box-sizing: border-box;
+}
+.home-header>a:before {
+	content: "";
+	display: inline-block;
+	width: 5.33333333vw;
+	height: 5.33333333vw;
+	background-image: url(/images/home/navi_search_v5.png);
+	background-size: 100% 100%;
+}
+.home-header>a>span {
+	color: rgb(51, 51, 51);
+	margin: 0 2.666667vw;
+}
+.banner {
+	height: 42.6666666667vw;
+}
+.banner a {
+	display: block;
+}
+.banner a>img {
+	width: 100%;
+}
+.nav {
+	height: 26.9333333vw;
+	box-sizing: border-box;
+	padding-top: 3.73333333vw;
+	display: flex;
+	justify-content: space-evenly;
+}
+.nav>a {
+	width: 17.3333333vw;
+	height: 19.2vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.nav>a>img {
+	width: 13.333333vw;
+	height: 13.333333vw;
+}
+.nav>a>span {
+	font-size: 3.2vw;
+	color: #000;
+	margin-top: 1.33333333vw;
+}
+.promotion {
+	padding: 0 3.2vw 2.66666667vw ;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0;
+}
+.promotion>a {
+	border-radius: 1.3333333vw;
+	overflow: hidden;
+}
+.promotion>a>img {
+	height: 32.18666667vw;
+	width: 22.8vw;
+}
+/* 小米众筹 */
+.crowd-funding {
+	box-sizing: border-box;
+	background-clip: content-box;
+	padding: 0 3.2vw 2.66666667vw;
+	background-image: url(/images/home/efaf252fb1ef07bb22395bc3649a127d.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.crow-funding-header {
+	height: 11.4666667vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2.6666666666vw;
+	box-sizing: border-box;
+}
+.crow-funding-header h3 {
+	font-weight: 600;
+}
+.crow-funding-header a {
+	font-size: 3.2vw;
+	color: #999;
+}
+a.crowd-funding-main {
+	display: flex;
+	padding: 2.6666666vw;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	font-size: 0;
+}
+.crowd-funding-main-top {
+	display: flex;
+}
+.crowd-funding-main-left{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+.crowd-funding-main-left>div{
+	box-sizing: border-box;
+}
+.crowd-funding-main-left>div>h6{
+	font-size: 4.2666667vw;
+	color: #000;
+	font-weight: normal;
+}
+.crowd-funding-main-left>div>p{
+	max-width: 54.666666vw;
+	font-size: 3.2vw;
+	color: rgb(125, 68, 2);
+	background-color: rgb(255, 249, 227);
+	margin: 1.333333vw 0;
+}
+.crowd-funding-main-left>div>span{
+	color: red;
+	font-size: 3.2vw;
+	align-self: flex-end;
+}
+.crowd-funding-main-left>span{
+	font-size: 2.666666vw;
+	height: 3.2vw;
+	align-self: flex-end;
+}
+.crowd-funding-main-left>span>span{
+	color: orange;
+}
+.crowd-funding-main-top>img {
+	width: 35.2vw;
+	height: 35.2vw;
+	flex-shrink: 0;
+}
+a.crowd-funding-main>span {
+	height: 1.0666667vw;
+	width: 100%;
+	background-color: rgb(225, 225, 225);
+	margin: 2.66666667vw 0;
+}
+a.crowd-funding-main>span>span {
+	display: block;
+	height: 100%;
+	width: 75.8666666667vw;
+	background-image: linear-gradient(to right, rgb(255, 200, 102), rgb(255, 88, 27));
+}
+.crowd-funding-minor-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+a.crowd-funding-minor {
+	width: 43vw;
+	height: 32.53333333vw;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 2.6666666vw;
+}
+.crowd-funding-minor>h6 {
+	width: 100%;
+	font-size: 3.73333333vw;
+	color: #333;
+	font-weight: normal;
+}
+.crowd-funding-minor-top{
+	display: flex;
+	/* height: 20vw; */
+	/* flex-wrap: wrap; */
+	/* justify-content: ; */
+}
+.crowd-funding-minor-left {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	height: 21.3333333vw;
+}
+.crowd-funding-minor-left>div {
+	color: red;
+}
+.crowd-funding-minor-left>span {
+	font-size: 2.6666667vw;
+	display: flex;
+	align-self: flex-end;
+	height: 3.2vw;
+	flex-shrink: 0;
+}
+.crowd-funding-minor-left>span>img {
+	width: 4.8vw;
+	height: 4.8vw;	
+	margin-right: 0.8vw;
+}
+.crowd-funding-minor-left>span>span {
+	color: orange;
+}
+.crowd-funding-minor-top>img{
+	width: 20vw;
+	height: 20vw;
+}
+a.crowd-funding-minor>span {
+	height: 1.06666667vw;
+	width: 100%;
+	margin: 2.6666666vw 0 2.6666666vw;
+	background-image: linear-gradient(to right, rgb(255, 200, 102), rgb(255, 88, 27));
+}
+/* 上新精选 */
+.on-new-wrapper {
+	padding: 0 3.2vw 2.66666667vw;
+}
+.on-new {
+	background-color: #fff;
+	border-radius: 1.3333333333vw;
+	overflow: hidden;
+}
+.no-new-content {
+	white-space: nowrap;
+	overflow: auto;
+	padding: 0 0 2.6666667vw 2.6666667vw ;
+}
+.no-new-content::-webkit-scrollbar {
+	display: none;
+}
+.on-new-item {
+	width: 24.8vw;
+	display: inline-block;
+	background-color: #fcf7f1;
+	text-align: center;
+	vertical-align: top;
+}
+.on-new-item>img {
+	height: 24.8vw;
+	width: 24.8vw;
+}
+.on-new-item>span {
+	height: 10.666666667vw;
+	width: 100%;
+	white-space: normal;
+	box-sizing: border-box;
+	padding: 0 3.2vw;
+	color: #333;
+	font-size: 3.2vw;
+	display: block;
+}
+/* 有品秒杀 */
+.timer {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 2.666667vw;
+	vertical-align: middle;
+}
+.timer-content {
+	vertical-align: middle;
+	display: inline-block;
+}
+.timer-content>span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1.066666667vw;
+	background-color: rgb(203, 148, 59);
+	color: #fff;
+	line-height: 4.8vw;
+	width: 4.8vw;
+	height: 4.8vw;
+	text-align: center;
+}
+span.seckill-price {
+	color: red !important;
+	font-size: 3.7333333vw;
+	font-weight: bold;
+	height: 5.333333vw;
+}
+.bgc-white {
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
